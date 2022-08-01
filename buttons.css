@@ -1,0 +1,68 @@
+.pulse:hover, .pulse:focus{
+	box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+	animation: pulse 1s;
+}
+
+.pulse.light:hover, .pulse.light:focus{
+	box-shadow: 0 0 0 2em rgba(255, 255, 255, 0.2);
+	animation: pulse 1s;
+    transition-duration: 0.3s;
+}
+@keyframes pulse{
+	0%{box-shadow: 0 0 0 0 #bdae82}
+}
+
+.raise:hover, .raise:focus{
+	box-shadow: 0 0.5em 0.5em -0.4em #bdae82;
+	transform: translatey(-0.65em);
+}
+
+.raise.light:hover, .raise.light:focus{
+	box-shadow: 0 0.5em 0.5em -0.4em #000;
+	transform: translatey(-0.65em);
+}
+
+a.animated-button.thar-three {
+	color: #000;
+	cursor: pointer;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	position: relative;
+    text-align: center;
+    
+	border: 2px solid #bdae82;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+a.animated-button.thar-three:hover {
+	color: #fff !important;
+	background-color: transparent;
+	text-shadow: nthree;
+}
+a.animated-button.thar-three:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+a.animated-button.thar-three:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: #bdae82;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+
+
+a.animated-button.thar-three:active {
+    background-color: black;
+    color: #fff;
+    transition-duration: 0.1s;
+}

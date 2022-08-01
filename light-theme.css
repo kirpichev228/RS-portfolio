@@ -1,0 +1,150 @@
+body.light {
+    background: #fff;
+    color: #000;
+}
+
+.light-theme.light {
+    display: none;
+}
+
+.dark {
+    display: none;
+}
+
+.dark.light {
+    display: block;
+}
+
+.nav-link.light {
+    color: #000;
+}
+
+.nav-link.light:hover {
+    color: #BDAE82;
+}
+
+.apparat.light {
+    fill: black;
+}
+
+.apparat.light:hover {
+    fill: #BDAE82;
+}
+
+.header-content-language-switch-en.light:hover, 
+.header-content-language-switch-ru.light:hover {
+    color: #fff;
+    /* transition-duration: 0.3s;
+    cursor: pointer; */
+}
+
+.header-content-language-switch-en.light.active, 
+.header-content-language-switch-ru.light.active {
+    color: #fff;
+}
+
+.main-hero.light {
+    color: #000;
+}
+
+.main-hero-intro-button.light {
+    background: #fff;
+    color: #000;
+    box-shadow: 0 2px 2px gray;
+}
+
+.main-hero-intro-button.light:hover {
+    background: #000;
+    color: #BDAE82;
+    box-shadow: 0 2px 2px gray;
+}
+
+.main-hero-intro-button.light:hover:active {
+    background: #fff;
+    color: #BDAE82;
+    box-shadow: 0 2px 2px gray;
+}
+
+.main-skills-nameholder.light {
+    border: 1px solid #000;
+}
+
+.peepeepoopoo.light {
+    background: #fff;
+}
+
+.main-skills-title.light {
+    color: #000;
+}
+
+.peepeepoopoo-portfolio.light {
+    background: #fff;
+}
+
+.main-portfolio-buttons-item.light {
+    background-color: #BDAE82;
+    color: #000;
+}
+
+.main-portfolio-buttons-item.light:hover,
+.main-portfolio-buttons-item.light:active,
+.main-portfolio-buttons-item.light:focus {
+    background: #000;
+    color: #BDAE82;
+    cursor: pointer;
+}
+
+.contacts.light {
+    background-image: url(images/background/lightcontacts.jpg);
+}
+
+.main-contact-form-name.light {
+    color: #000;
+}
+
+.contact-form.light {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.main-contact-form-button.light {
+    background: #fff;
+    color: #000;    
+}
+
+.main-contact-form-button.light:hover {
+    background: #000;
+    color: #BDAE82;
+}
+
+.main-contact-form-button.light:active {
+    background: #fff;
+    color: #BDAE82;
+}
+
+.contact-form.light::placeholder {
+    color: #000;
+}
+
+.footer.light {
+    background-color: #fff;
+}
+
+.footer-content-info.light span {
+    color: #000;
+}
+
+.footer-content-info.light a {
+    color: #000;
+}
+
+.footer-content-rss.light a {
+    color: #000;
+}
+
+.footer-soc.light {
+    fill: #000;
+}
+
+.footer-soc.light:hover {
+    fill: #BDAE82;
+}
